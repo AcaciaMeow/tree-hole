@@ -62,6 +62,8 @@
     "servux.config.hud_data.update_interval.name": "更新间隔",
     "servux.config.hud_data.weather_permission_level.comment": "共享天气数据所需权限",
     "servux.config.hud_data.weather_permission_level.name": "天气数据权限",
+    "servux.config.litematic_data.deduplicate_schematic_entities.comment": "基于实体 ID 和/或 UUID 启用实体去重功能",
+    "servux.config.litematic_data.deduplicate_schematic_entities.name": "去除原理图重复实体",
     "servux.config.litematic_data.fix_chest_mirror.comment": "当箱子镜像时，启用/禁用箱子镜像的相关修复。",
     "servux.config.litematic_data.fix_chest_mirror.name": "修复箱子镜像",
     "servux.config.litematic_data.fix_rail_rotations.comment": "启用/禁用铁轨旋转180度时的角度修正。",
