@@ -6,9 +6,9 @@ profile.VERYLOW=§aVery Low
 profile.LOW=§aLow
 profile.MEDIUM=§aMedium
 profile.HIGH=§eHigh (Default)
-profile.VERYHIGH=§cVery High
-profile.ULTRA=§4§lUltra
-profile.COMPLEMENTARY=§4§l§n§oComplementary
+profile.VERYHIGH=§eVery High
+profile.ULTRA=§cUltra
+profile.COMPLEMENTARY=§4§lComplementary
 profile.comment=Shader profiles change performance settings with the most optimised visual fidelity to performance ratio. §e[*]§r It's recommended to use one of these profiles for your settings unless you know what you are doing. §e[*]§r All affected settings can all be found in the "Performance Settings" menu.
 
 #Information
@@ -21,43 +21,43 @@ option.info0.comment=This section contains buttons that only exist to provide in
 
 option.info1=How to get more performance
 value.info1.0=
-option.info1.comment=Performance is a complex topic in Minecraft because it gets affected by so many things, but you can try these:. Reduce your render distance, ideally it should be between 6 and 16 for almost every device. Reduce the "Profile" shader setting, these have been carefully tested for the best visual/performance ratio. More information will be added later.
+option.info1.comment=- Performance is a complex topic in Minecraft because it gets affected by so many things, but you can try these:. - Use Iris+Sodium mods instead of Optifine, because Optifine is problematic and won't even let you read rest of this description in some cases. - Reduce the "Profile" shader setting, these have been carefully tested for the best visual/performance ratio. - Reduce your render distance, I recommend setting it to be 2-4 chunks higher than the "shadow distance" of the "Profile" you have chosen, so for example, 16 chunks of render distance for the "High" profile, 6 chunks for the Potato profile. - Make sure your resolution isnt too excessive, 1920x1080 is great for mid tier systems, 1440p is viable for high tier systems, 4k is excessive. - Make sure you don't have a massive amount of mods, even if most of those mods are "optimization mods", they usually aren't that helpful for shaders. It's also worth mentioning that some resource packs, especially ones that add more complex foliage/leaves cost a ton of performance.
 
 option.info2=What are the best settings
 value.info2.0=
-option.info2.comment=Best settings are subjective, but using the default settings will be the near-best for most people. The default settings have been shaped by years of community evaluations and feedback, while paying a lot of attention to the visual/performance ratio. But you should still feel free to tweak around and have fun doing so!
+option.info2.comment=- Best settings are subjective, but using the default "Profile" options are going to be the near-best for most people. - The default settings have been shaped by years of community evaluations, testing, and feedback; while paying a lot of attention to the visuals/performance ratio. - But you should still feel free to tweak around and have fun doing so!
 
 option.info3=What is Profile or Visual Style
 value.info3.0=
-option.info3.comment="Profile" setting changes the settings found in the "Performance Settings" menu, while not affecting any preference-based settings. "Visual Style" changes the "Set by Style" values that exist on many preference-based settings, but it does not impact performance by an important amount.
+option.info3.comment=- "Profile" setting changes the settings found in the "Performance Settings" menu, while not affecting any preference-based settings. - "Visual Style" changes the "Set by Style" values that exist on many preference-based settings, but it does not impact performance by an important amount. - The only difference between Complementary Reimagined and Unbound is the default option of "Visual Style"
 
 option.info4=What is RP Support
 value.info4.0=
-option.info4.comment=RP Support option determines how the shader pack treats the different blocks of Minecraft. For example, §bIntegratedPBR+§r treats gold blocks as reflective things, while §elabPBR§r or §eseuspbr§r require you to install a resource pack to tell that to the shader. Setting RP Support to §aBasic§r will make it so that no block is "special" other than a couple exceptions like water.
+option.info4.comment=- RP Support option determines how the shader pack treats the different blocks of Minecraft. - For example, §bIntegratedPBR+§r treats gold blocks as reflective things, while §elabPBR§r or §eseuspbr§r require you to install a resource pack to tell that to the shader. - Setting RP Support to §aBasic§r will make it so that no block is "special" other than a couple exceptions like water.
 
 option.info5=What are yellow settings
 value.info5.0=
-option.info5.comment=A setting with a yellow name means that the setting impacts performance by a measurable amount despite not being in the "Performance Settings" category. If enabling it results in a red option text, it means that the performance cost is very high.
+option.info5.comment=- A setting with a yellow name means that the setting impacts performance by a measurable amount despite not being in the "Performance Settings" category. - If enabling it results in a red option text, it means that the performance cost is very high.
 
-option.info6=
+option.info6=Are there any recommended mods
 value.info6.0=
-option.info6.comment=
+option.info6.comment=- Aside from Iris and Sodium which are essential, I recommend a block-entity optimization mod like "Optimized Block Entities" or "Enhanced Block Entities" for improved performance. - Aside from that, the "RenderScale" mod can be good for easily adjusting resolution. - It's also worth mentioning "Voxy" or "Distant Horizons" mods that add a way to have extreme render distances with non-extreme performance cost; I recommend using 64 to 256 chunks of Voxy render distance, or 64 to 128 chunks of Distant Horizons distance, with 8 to 12 chunks of regular render distance if you are using either mods. - Lastly you can get the "Euphoria Patches" mod that adds a modified Complementary to your shaders list with more functionality and settings; alongside adding several Iris fixes/tweaks even when you aren't using the modified Complementary-Euphoria shader pack, like making colored lighting work even at very high world coordinates.
 
-option.info7=
+option.info7=Where to ask questions or report problems
 value.info7.0=
-option.info7.comment=
+option.info7.comment=- Please either use the Complementary Discord server for questions, or use the "issues" section in the Github page. - www.complementary.dev/discord. - www.complementary.dev/github
 
 option.info8=How to join the community
 value.info8.0=
-option.info8.comment=You can join the Complementary Discord server to join our friendly community, and be able to contact developers or experienced community members. www.complementary.dev/discord
+option.info8.comment=- You can join the Complementary Discord server to join our friendly community, and be able to contact developers or experienced community members. - www.complementary.dev/discord
 
 option.info9=How to support Complementary
 value.info9.0=
-option.info9.comment=Best way to support the development of Complementary is to share it with your friends or social media, but you can also directly support the developer on Patreon. www.patreon.com/emingt
+option.info9.comment=- Best way to support Complementary is to share it with your friends or social media, but you can also directly support the main developer (me!) on Patreon. - www.patreon.com/emingt
 
 option.info10=Credits
 value.info10.0=
-option.info10.comment=EminGT: The main developer of Complementary. Capt Tatsu: Developer of BSL Shaders, his generosity is what made Complementary possible in the first place. Special Thanks: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap, gri573, FoZy-STYLE
+option.info10.comment=- EminGT: The main developer of Complementary. - Capt Tatsu: Developer of BSL Shaders, his generosity is what made Complementary possible in the first place. - Special Thanks: IMS212, sp614x, Chocapic13, Robobo1221, SixthSurge, null511, fayer3, catlikecoding, Builderb0y, Jessie, SpacEagle17, isuewo, flytrap, gri573, FoZy-STYLE, plazmal, aceralex
 
 #Style
 option.SHADER_STYLE=Visual Style
@@ -100,6 +100,9 @@ screen.SUN_MOON_SETTINGS.comment=Settings that relate to the sun and moon.
 screen.NETHER_SETTINGS=The Nether Dimension
 screen.NETHER_SETTINGS.comment=Settings that relate to the Nether dimension.
 
+screen.END_SETTINGS=The End Dimension
+screen.END_SETTINGS.comment=Settings that relate to the End dimension.
+
 screen.WEATHER_SETTINGS=Rain / Weather
 screen.WEATHER_SETTINGS.comment=Settings that relate to weather conditions
 
@@ -114,6 +117,9 @@ screen.COLORGRADING_SETTINGS.comment=Settings to mix up the final color channels
 
 screen.WORLD_BLUR_SETTINGS=World Blur
 screen.WORLD_BLUR_SETTINGS.comment=Settings that relate to fancy world blurring effects.
+
+screen.TAA_SETTINGS=Temporal Filter Settings
+screen.TAA_SETTINGS.comment=Settings to determine the behaviour of temporal anti aliasing.
 
 screen.MATERIAL_SETTINGS=Materials
 screen.MATERIAL_SETTINGS.comment=Settings that are related to the materials of Minecraft.
@@ -146,8 +152,8 @@ screen.RAIN_LIGHT_MULTS=Rainy Weather
 screen.NETHER_LIGHT_MULTS=The Nether Dimension
 screen.END_LIGHT_MULTS=The End Dimension
 
-screen.BLOCKLIGHT_COLOR_SETTINGS=Blocklight Color §e[*]§r
-screen.BLOCKLIGHT_COLOR_SETTINGS.comment=Settings to adjust the color emitted from light source blocks. §e[*]§r These color settings won't affect most lights if the Advanced Color Tracing setting is enabled, except for the Blocklight Intensity slider.
+screen.BLOCKLIGHT_SETTINGS=Blocklight §e[*]§r
+screen.BLOCKLIGHT_SETTINGS.comment=Settings to adjust the lighting emitted from light source blocks. §e[*]§r The red/green/blue color settings won't affect most lights if the Advanced Color Tracing setting is enabled.
 
 screen.MOON_PHASE_INF_SETTINGS=Moon Phase Influence
 screen.MOON_PHASE_INF_SETTINGS.comment=Settings to determine how different moon phases affect the night lighting.
@@ -202,17 +208,17 @@ value.BLOCK_REFLECT_QUALITY.1=§eLow
 value.BLOCK_REFLECT_QUALITY.3=§cHigh
 
 option.SHADOW_QUALITY=Real-Time Shadows
-option.SHADOW_QUALITY.comment=Adjusts the quality of shadows. Every tier further reduces the shadow noise artifacts, options lower than §eHigh§r enable optimised shadows on leaves, §eVery Low§r significantly downgrades shadows in multiple ways, §aOFF§r completely disables shadows and light shafts.
+option.SHADOW_QUALITY.comment=Adjusts the quality of shadows. Every tier further reduces the shadow noise artifacts, §eLow§r and §eVery Low§r use simpler shadow filtering, §eVery Low§r also disables colored shadows, §aOFF§r completely disables shadows and light shafts. §e[*]§r This setting is internally limited at "Low" if you disable the Temporal Filter or enable the Pixelated Shadows setting.
 value.SHADOW_QUALITY.-1=§aOFF
 value.SHADOW_QUALITY.0=§eVery Low
 value.SHADOW_QUALITY.1=§eLow
 value.SHADOW_QUALITY.2=§eMedium
-value.SHADOW_QUALITY.3=§eHigh
+value.SHADOW_QUALITY.3=§cHigh
 value.SHADOW_QUALITY.4=§cVery High
 value.SHADOW_QUALITY.5=§4§lUltra
 
 option.LIGHTSHAFT_QUALI_DEFINE=Light Shaft Quality §e[*]§r
-option.LIGHTSHAFT_QUALI_DEFINE.comment=Adjusts the quality of light shafts. Every tier further reduces the light shaft noise artifacts. §e[*]§r "Real-Time Shadows" setting must be set to anything but OFF for light shafts to work.
+option.LIGHTSHAFT_QUALI_DEFINE.comment=Adjusts the quality of light shafts. Every tier further reduces the noise artifacts. §e[*]§r "Real-Time Shadows" setting must be set to anything but OFF for light shafts to work. §e[*]§r This setting also controls the quality of End Beams, with the exception that the "OFF" option is treated as "Low".
 value.LIGHTSHAFT_QUALI_DEFINE.0=§aOFF
 value.LIGHTSHAFT_QUALI_DEFINE.1=§eLow
 value.LIGHTSHAFT_QUALI_DEFINE.2=§eMedium
@@ -243,10 +249,11 @@ value.ENTITY_SHADOW.1=§cRegular Entities
 value.ENTITY_SHADOW.2=§4§k-§r§4§l§n§oFull§r§4§k- §r§c[-]
 
 option.DETAIL_QUALITY=Detail Quality
-option.DETAIL_QUALITY.comment=Adjusts several small things that affect performance. Adjust the quality of: Water material, TAA, lighting tweaks, Night Nebula, Nether Storm, Ender Beams, sky effect reflections, rain puddle accuracy, waving effect, motion blur
+option.DETAIL_QUALITY.comment=Adjusts several small things that affect performance. Adjust the quality of: Water material, TAA, lighting tweaks, Night Nebula, Nether Storm, sky effect reflections, rain puddle accuracy, waving effect, motion blur, reflection fixes, texture filtering on translucents
 value.DETAIL_QUALITY.0=§aPotato
 value.DETAIL_QUALITY.2=§eMedium
 value.DETAIL_QUALITY.3=§cHigh
+value.DETAIL_QUALITY.4=§4§k-§r§4§l§n§oUltra§r§4§k-
 
 option.CLOUD_QUALITY=Cloud Quality
 option.CLOUD_QUALITY.comment=Adjusts the lighting, detail, and sample quality of Reimagined/Unbound cloud styles. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
@@ -285,7 +292,7 @@ value.COLORED_LIGHTING.768=§4§l§n§o24 Chunks §r§c[-]
 value.COLORED_LIGHTING.1024=§4§k-§r§4§l§n§o32 Chunks§r§4§k- §r§c[-]
 
 option.WORLD_SPACE_REFLECTIONS=World-Space Reflections §e[*]§r
-option.WORLD_SPACE_REFLECTIONS.comment=Calculates reflections in world-space rather than screen-space. §e[*]§r This feature only works if Advanced Color Tracing is on in Performance Settings and your system supports it. §e[*]§r The maximum distance of this effect depends on the Advanced Color Tracing distance, but it is internally capped at 16 chunks for technical reasons. §c[-]§r This effect can severely impact performance especially with higher Advanced Color Tracing distances. §c[-]§r World-space reflections can completely break after changing resource packs, but it will be fixed after restarting your game. §c[-]§r World-space reflections can cause intense flickering with mods, or resource packs that use higher than 16x resolution for any block textures. 
+option.WORLD_SPACE_REFLECTIONS.comment=Calculates reflections in world-space rather than screen-space. §e[*]§r This feature only works if Advanced Color Tracing is on in Performance Settings and your system supports it. §e[*]§r The maximum distance of this effect depends on the Advanced Color Tracing distance, but it is internally capped at 16 chunks for technical reasons. §c[-]§r This effect can severely impact performance especially with higher Advanced Color Tracing distances. §c[-]§r World-space reflections can have several types of issues with mods or resource packs.
 value.WORLD_SPACE_REFLECTIONS.-1=§aOFF
 value.WORLD_SPACE_REFLECTIONS.1=§4§l§n§oON
 
@@ -294,13 +301,18 @@ option.WORLD_SPACE_REF_MODE.comment=Determines the operation mode of world-space
 value.WORLD_SPACE_REF_MODE.1=WSR Only
 value.WORLD_SPACE_REF_MODE.2=WSR + SSR
 
+option.WORLD_SPACE_PLAYER_REF=WS Player Reflections
+option.WORLD_SPACE_PLAYER_REF.comment=Makes the current player's own player model reflected inside world-space reflections.
+value.WORLD_SPACE_PLAYER_REF.-1=OFF
+value.WORLD_SPACE_PLAYER_REF.1=ON
+
 option.SSAO_I=Edge Shadow Intensity (SSAO)
 option.SSAO_I.comment=Determines the strength of Screen-Space Ambient Occlusion (SSAO) which adds extra ambient shadowing to the edges of the scene. §e[*]§r This setting won't work if SSAO is disabled in "Performance Settings".
-value.SSAO_I.0=§cOFF
+value.SSAO_I.0=OFF
 
 option.VANILLAAO_I=Edge Shadow Intensity (Vanilla)
 option.VANILLAAO_I.comment=Determines the strength of Minecraft's ambient occlusion which adds extra ambient shadowing to the edges of the scene.
-value.VANILLAAO_I.0=§cOFF
+value.VANILLAAO_I.0=OFF
 
 option.BORDER_FOG=Border Fog
 option.BORDER_FOG.comment=Intense fog on the edges of the loaded world to hide chunk borders. §e[*]§r It's recommended to disable Border Fog when playing with less than 8 chunks of render distance.
@@ -323,7 +335,7 @@ option.CAVE_FOG.comment=Enables extra fog in deep underground areas.
 
 option.LIGHTSHAFT_BEHAVIOUR=Light Shaft Mode
 option.LIGHTSHAFT_BEHAVIOUR.comment=Determines the behaviour of light shafts. §a[+]§r Scene Aware Light Shafts automatically transition between regular and extreme modes to provide the best results. §c[-]§r Extreme mode is not recommended for general gameplay, and it can severely impact performance.
-value.LIGHTSHAFT_BEHAVIOUR.0=§cOFF
+value.LIGHTSHAFT_BEHAVIOUR.0=OFF
 value.LIGHTSHAFT_BEHAVIOUR.1=Scene Aware §a[+]
 value.LIGHTSHAFT_BEHAVIOUR.2=Regular
 value.LIGHTSHAFT_BEHAVIOUR.3=Extreme §c[-]
@@ -334,14 +346,18 @@ option.LIGHTSHAFT_SMOKE.comment=Adds volumetric smoke to the light shafts. §c[-
 option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS=Special Pale Garden Shafts
 option.SPECIAL_PALE_GARDEN_LIGHTSHAFTS.comment=Makes light shafts look extra spicy in the "Pale Garden" biome.
 
-option.LIGHTSHAFT_DAY_I=Light Shaft Day Multiplier
+option.LIGHTSHAFT_NOON_I=Light Shaft Noon Multiplier
+option.LIGHTSHAFT_SUNSET_I=Light Shaft Sunset Multiplier
 option.LIGHTSHAFT_NIGHT_I=Light Shaft Night Multiplier
 option.LIGHTSHAFT_RAIN_I=Light Shaft Rain Multiplier
+
+option.LIGHTSHAFT_SUNSET_SATURATION=Light Shaft Sunset Color
+option.LIGHTSHAFT_SUNSET_SATURATION.comment=Adjusts the extra color saturation given to the color of light shafts at sunrise and sunset times. Higher values are going to produce a red-ish orange, while lower values are going to shift it towards yellow.
 
 option.CLOUD_STYLE_DEFINE=Cloud Style
 option.CLOUD_STYLE_DEFINE.comment=Determines the style of clouds. §e[*]§r "Set by Style" means that the setting will be automatically determined by the "Visual Style" setting in the main menu of Shader Options. §e[*]§r The "Vanilla" style requires clouds to be enabled in Video Settings.
 value.CLOUD_STYLE_DEFINE.-1=Set by Style
-value.CLOUD_STYLE_DEFINE.0=§cOFF
+value.CLOUD_STYLE_DEFINE.0=OFF
 value.CLOUD_STYLE_DEFINE.1=Reimagined
 value.CLOUD_STYLE_DEFINE.3=Unbound
 value.CLOUD_STYLE_DEFINE.50=Vanilla §e[*]
@@ -352,8 +368,8 @@ option.CLOUD_SHADOWS.comment=Enables shadows that are cast from the clouds. §e[
 option.CLOUD_CLOSED_AREA_CHECK=Prevent Clouds in Interiors
 option.CLOUD_CLOSED_AREA_CHECK.comment=Does additional checks to remove clouds in closed areas. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles. §e[*]§r This setting will be disabled if "Real-Time Shadows" is OFF.
 
-option.CLOUD_ALT1=Cloud Altitude
-option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
+option.CLOUD_ALT1=Cloud Altitude §e[*]§r
+option.CLOUD_ALT1.comment=Determines the world height which the clouds will appear at. §e[*]§r This setting can be internally increased or decreased depending on your dimension settings and mods. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
 
 option.CLOUD_SPEED_MULT=Cloud Speed
 option.CLOUD_SPEED_MULT.comment=Determines how fast the clouds are going to move. "Synced to World Time" setting uses Minecraft world time to advance the cloud positions; this allows for clouds to appear the same between players in the same server. §e[*]§r This setting only works with the "Reimagined" or "Unbound" Cloud Styles.
@@ -366,8 +382,8 @@ option.CLOUD_B=Cloud Blue Multiplier
 option.CLOUD_UNBOUND_AMOUNT=Cloud Amount
 option.CLOUD_UNBOUND_AMOUNT.comment=Adjusts the amount of Unbound clouds.
 
-option.CLOUD_UNBOUND_SIZE_MULT=Cloud Smallness
-option.CLOUD_UNBOUND_SIZE_MULT.comment=Adjusts the size of Unbound clouds. Higher values produce smaller clouds.
+option.CLOUD_UNBOUND_SIZE_MULT=Cloud Smallness §c[-]§r
+option.CLOUD_UNBOUND_SIZE_MULT.comment=Adjusts the size of Unbound clouds. Higher values produce smaller clouds. §c[-]§r Changing this setting will disable the "sync clouds between players in the same server" feature of Complementary.
 
 option.CLOUD_UNBOUND_RAIN_ADD=Rain Cloud Addition
 option.CLOUD_UNBOUND_RAIN_ADD.comment=Adjusts the cloud amount increase that gets applied during rain/snow.
@@ -412,6 +428,21 @@ option.NETHER_COLOR_MODE.comment=Determines how the ambience colors will be hand
 value.NETHER_COLOR_MODE.3=Biome Based (Modified)
 value.NETHER_COLOR_MODE.2=Biome Based
 value.NETHER_COLOR_MODE.0=Constant
+
+option.END_BEAM_INTENSITY=End Beams Intensity
+option.END_BEAM_INTENSITY.comment=Adjusts the brightness of the beams seen in the End dimension.
+
+option.END_STAR_INTENSITY=End Stars Intensity
+option.END_STAR_INTENSITY.comment=Adjusts the brightness of the stars seen in the End dimension.
+
+option.END_FLASHES=End Flashes
+option.END_FLASHES.comment=Enables support for the "End flash" environmental feature that was added in Minecraft 1.21.9. The intensity of the flashes in the sky are directly tied to the intensity of End Beams.
+
+option.END_BEAM_CENTER_ALT=End Beams Center Altitude
+option.END_BEAM_CENTER_ALT.comment=Adjusts the altitude the End Beams will be centered at the y-level of the world.
+
+option.END_BEAM_HEIGHT=End Beams Height
+option.END_BEAM_HEIGHT.comment=Adjusts the physical tallness of the End Beams.
 
 option.TM_EXPOSURE=General Brightness
 option.TM_EXPOSURE.comment=Also known as "Tonemap Exposure". Adjusts the overall brightness of the whole image.
@@ -522,8 +553,13 @@ value.SUN_MOON_STYLE_DEFINE.3=Unbound - Smaller
 option.SUN_MOON_HORIZON=Sun/Moon Horizon
 option.SUN_MOON_HORIZON.comment=Prevents the sun/moon from appearing below the horizon line.
 
-option.SUN_MOON_DURING_RAIN=Sun/Moon During Rain
-option.SUN_MOON_DURING_RAIN.comment=Determines if the sun and moon will be visible during rain or not.
+option.SUN_MOON_DURING_RAIN=Sun/Moon During Rain. §e[*]§r
+option.SUN_MOON_DURING_RAIN.comment=Determines if the sun and moon will be visible during rain or not. §e[*]§r This setting also changes the balance of lighting during rain.
+
+option.IMPROVED_RAIN_DEFINE=Improved Weather Textures
+option.IMPROVED_RAIN_DEFINE.comment=Enables improved weather texture handling that allows for better colors and also fixes the Minecraft bug where rain/snow isn't visible behind colored or modified glass.
+value.IMPROVED_RAIN_DEFINE.0=OFF
+value.IMPROVED_RAIN_DEFINE.1=ON
 
 option.NIGHT_STAR_AMOUNT=Night Star Amount
 option.NIGHT_STAR_AMOUNT.comment=Determines the amount of stars in the night sky.
@@ -539,10 +575,16 @@ value.RAINBOWS.0=OFF
 value.RAINBOWS.1=After Rain
 value.RAINBOWS.3=Always
 
+option.RAINBOW_STYLE_DEFINE=Rainbow Style
+option.RAINBOW_STYLE_DEFINE.comment=Determines the style of rainbows. §e[*]§r "Set by Style" means that the setting will be automatically determined by the "Visual Style" setting in the main menu of Shader Options.
+value.RAINBOW_STYLE_DEFINE.-1=Set by Style
+value.RAINBOW_STYLE_DEFINE.1=Reimagined
+value.RAINBOW_STYLE_DEFINE.4=Unbound
+
 option.AURORA_STYLE_DEFINE=Aurora Borealis Style
 option.AURORA_STYLE_DEFINE.comment=Determines the style of northern lights that appear in the night sky.
 value.AURORA_STYLE_DEFINE.-1=Set by Style
-value.AURORA_STYLE_DEFINE.0=§cOFF
+value.AURORA_STYLE_DEFINE.0=OFF
 value.AURORA_STYLE_DEFINE.1=Reimagined
 value.AURORA_STYLE_DEFINE.2=Unbound
 
@@ -648,17 +690,50 @@ value.IMAGE_SHARPENING.10=10x §c[-]
 option.LENSFLARE_MODE=§eLens Flare§r
 option.LENSFLARE_MODE.comment=Adds camera lens reflection effect when towards the sun or moon. §c[-]§r This effect can severely impact performance.
 value.LENSFLARE_MODE.0=OFF
-value.LENSFLARE_MODE.1=§cSun Only
-value.LENSFLARE_MODE.2=§cSun & Moon
+value.LENSFLARE_MODE.1=§cSun Only - Circle
+value.LENSFLARE_MODE.2=§cSun & Moon - Circle
+value.LENSFLARE_MODE.3=§cSun Only - Square
+value.LENSFLARE_MODE.4=§cSun & Moon - Square
 
 option.LENSFLARE_I=Lens Flare Intensity
 option.LENSFLARE_I.comment=Adjusts the strength of the Lens Flare effect.
 
-option.TAA_MODE=§eTemporal Filter§r
-option.TAA_MODE.comment=Determines the behaviour of temporal anti aliasing. Smart & Subtle §a[+]§r: Temporal filter is applied in small amounts to the image in a way that won't cause artifacts. Intense §e[*]§r: Provides better anti-aliasing, but it will cause extra smudging and flickering; it might be the better choice at a higher frame rate and resolution. OFF §c[-]§r: Turning this off will cause worse performance and worse effect quality.
-value.TAA_MODE.1=Smart & Subtle §a[+]
-value.TAA_MODE.2=Intense §e[*]
-value.TAA_MODE.0=§cOFF [-]
+option.TAA_DEFINE=§eTemporal Filtering§r
+option.TAA_DEFINE.comment=Enables temporal anti aliasing which helps smooth out grainy effects, improves performance by reducing the sample counts of some heavier effects, and can reduce aliasing with the right settings. §c[-]§r: Turning this off will cause worse performance and worse effect quality, but it can also increase performance when paired with very low shader settings.
+value.TAA_DEFINE.-1=§aSet By DQ
+value.TAA_DEFINE.0=§cOFF [-]
+value.TAA_DEFINE.1=ON §a[+]
+
+option.TAA_SMOOTHING=Temporal Smoothing
+option.TAA_SMOOTHING.comment=Adjusts the amount of smoothing that the Temporal Filter will apply. Higher values produce a blurrier image but reduce flickering and graining. The difference won't be noticeable when standing still.
+value.TAA_SMOOTHING.2=Low
+value.TAA_SMOOTHING.3=Medium
+value.TAA_SMOOTHING.4=High
+
+option.TAA_JITTER=Temporal Jitter §e[*]§r
+option.TAA_JITTER.comment=Jittering helps the Temporal Filter to better anti-aliase the image, but has some drawbacks. §e[*]§r Higher values will improve anti-aliasing, but will also cause a lot of flickering and blur at the same time. §e[*]§r High Temporal Smoothing is recommended with Full jitter. §c[-]§r Turning jitter off will eliminate anti-aliasing benefits.
+value.TAA_JITTER.0=OFF §c[-]
+value.TAA_JITTER.1=Low
+value.TAA_JITTER.2=Medium
+value.TAA_JITTER.3=Full §e[*]
+
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER=Catmull-Rom Sampling
+option.TAA_MOVEMENT_IMPROVEMENT_FILTER.comment=Reduces the blurriness of Temporal Filter by using a more advanced sampling method.
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.0=OFF §c[-]
+value.TAA_MOVEMENT_IMPROVEMENT_FILTER.1=ON
+
+option.FXAA_STRENGTH=FXAA Strength
+option.FXAA_STRENGTH.comment=Adjusts the intensity of the FXAA effect. Higher values will produce better anti-aliasing at the cost of a blurrier image.
+value.FXAA_STRENGTH.-1=OFF
+
+option.FXAA_TAA_INTERACTION=Reduce FXAA While Moving
+option.FXAA_TAA_INTERACTION.comment=Reduces the strength of FXAA when the camera is moving. Higher values produce a sharper image but also produce more flickering.
+value.FXAA_TAA_INTERACTION.0=OFF
+value.FXAA_TAA_INTERACTION.2=20
+value.FXAA_TAA_INTERACTION.4=40
+value.FXAA_TAA_INTERACTION.6=60
+value.FXAA_TAA_INTERACTION.8=80
+value.FXAA_TAA_INTERACTION.10=100
 
 option.DISTANT_LIGHT_BOKEH=Distant Light Bokeh
 option.DISTANT_LIGHT_BOKEH.comment=Makes distant light sources look scattered by applying a single pixel blur in the distance. §a[+]§r This effect benefits from IntegratedPBR+ (optional) by adjusting distant light sources for better looks.
@@ -722,11 +797,27 @@ option.IPBR_COMPAT_MODE_DEFINE.comment=Changes how some IPBR+ features are calcu
 option.IPBR_PARTICLE_FEATURES=IPBR+ Particle Features
 option.IPBR_PARTICLE_FEATURES.comment=Enables several features for particles, including things like glowing lava particles and better-colored water particles.
 
-option.FANCY_GLASS=Improved Glass
+option.FANCY_GLASS=Improved Glass §c[-]§r
 option.FANCY_GLASS.comment=Improves the regular glass by adding a translucent layer to it. §c[-]§r Does not work on older Iris versions. §e[*]§r RP Support option must be set to Integrated PBR+.
 
 option.GREEN_SCREEN_LIME=Green Screen Lime Blocks
 option.GREEN_SCREEN_LIME.comment=Turns "Lime Concrete", "Lime Wool", and "Lime Carpet" into green screens for video editing. Tip 1: Turn off "Bloom" option to improve separation. Tip 2: Put lights under lime carpets for lighting. Tip 3: You can turn off Anti-Aliasing (FXAA) and set Detail Quality to Potato in Performance Settings to disable all filtering and get pixel-perfect separation.
+
+option.MIRROR_TINTED_GLASS=Mirror-like Tinted Glass
+option.MIRROR_TINTED_GLASS.comment=Increases the reflectiveness and opacity of Tinted Glass blocks. Enable World-Space Reflections for best results. §c[-]§r It's not recommended to use 100% Mirror in general gameplay due to it making a lot of reflection issues really apparent.
+value.MIRROR_TINTED_GLASS.0=OFF
+value.MIRROR_TINTED_GLASS.35=35% Mirror
+value.MIRROR_TINTED_GLASS.70=70% Mirror
+value.MIRROR_TINTED_GLASS.100=100% Mirror §c[-]
+
+option.MORE_REFLECTIVE_DISTANT_GLASS=More Reflective Distant Glass
+option.MORE_REFLECTIVE_DISTANT_GLASS.comment=Increases the reflectiveness and opacity of distant glass to make buildings with glass windows look nicer.
+
+option.HIDE_ARMOR=Hide Armor §e[*]§r
+option.HIDE_ARMOR.comment=Hides the armor and elytra worn by the player or all entities. Elytra is only shown while flying. §e[*]§r This setting only works on Iris. §e[*]§r The "On Main Player" option can look messy if other entities wearing armor get very close to the main player.
+value.HIDE_ARMOR.0=OFF
+value.HIDE_ARMOR.1=On Main Player §e[*]§r
+value.HIDE_ARMOR.2=On All Entities
 
 option.HAND_SWAYING=Hand Sway
 option.HAND_SWAYING.comment=Adds slow movement to the player hand to simulate a breathing animation.
@@ -764,28 +855,44 @@ option.AMBIENT_MULT=Shadow Light Multiplier
 option.AMBIENT_MULT.comment=Determines the amount of ambient lighting seen in shadows. §c[-]§r Drastically changing this setting can break the lighting balance.
 
 option.PLAYER_SHADOW=Player Shadow §e[*]§r
-option.PLAYER_SHADOW.comment=Determines if the player will cast a shadow or not. §e[*]§r This setting only works on Iris. §e[*]§r This setting will be disabled if "Real-Time Shadows" is OFF.
+option.PLAYER_SHADOW.comment=Determines if the player will cast a shadow or not. §e[*]§r This setting only fully works on Iris. §e[*]§r This setting will be disabled if "Real-Time Shadows" is OFF.
 value.PLAYER_SHADOW.-1=OFF
 value.PLAYER_SHADOW.1=ON
 
+option.LEAF_SHADOW_OPTIMISATION_DEFINE=§eLeaf Shadow Optimization§r
+option.LEAF_SHADOW_OPTIMISATION_DEFINE.comment=Disables shadows of leaves and vines in darker areas to gain performance. §c[-]§r The main downside of this optimization is that it messes up lighting with some fancy leaf resource packs. §e[*]§r "Set By DQ" means that this setting is determined by "Detail Quality" in Performance Settings unless you change it.
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.-1=§aSet By DQ
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.0=§cOFF
+value.LEAF_SHADOW_OPTIMISATION_DEFINE.1=§aON
+
+option.SKY_EFFECT_REFLECTION_DEFINE=§eSky Effect Reflections§r
+option.SKY_EFFECT_REFLECTION_DEFINE.comment=Enables reflections to have sky effects visible; like clouds, stars, and aurora borealis. "ON - Water" option will enable sky effects on water and translucent reflections, while "ON - Full" will enable them on block reflections as well. §e[*]§r "Set By DQ" means that this setting is determined by "Detail Quality" in Performance Settings unless you change it.
+value.SKY_EFFECT_REFLECTION_DEFINE.-1=§aSet By DQ
+value.SKY_EFFECT_REFLECTION_DEFINE.0=§aOFF
+value.SKY_EFFECT_REFLECTION_DEFINE.1=§cON - Water
+value.SKY_EFFECT_REFLECTION_DEFINE.2=§4§l§n§oON - Full
+
 option.GENERATED_NORMALS=Generated Normals
-option.GENERATED_NORMALS.comment=Adds auto-generated bumpy details to surfaces. §e[*]§r RP Support option must be set to Integrated PBR+.
+option.GENERATED_NORMALS.comment=Adds auto-generated bumpy details to surfaces. §e[*]§r RP Support option must be set to Integrated PBR+. §e[*]§r Can look wonky with some resource packs or mods that feature non-standard resolution textures.
 
 option.COATED_TEXTURES=Coated Textures
-option.COATED_TEXTURES.comment=Adds auto-generated dusty details to textures. §e[*]§r RP Support option must be set to Integrated PBR+.
+option.COATED_TEXTURES.comment=Adds auto-generated dusty details to textures. §e[*]§r RP Support option must be set to Integrated PBR+. §e[*]§r Can look wonky with some resource packs or mods that feature non-standard resolution textures.
 
-option.ENTITY_GN_AND_CT=Allow GN and CT on Entities
+option.ENTITY_GN_AND_CT=Allow GN & CT on Entities
 option.ENTITY_GN_AND_CT.comment=Decides if Generated Normals and Coated Textures can appear on entities. §e[*]§r This won't enable GN or CT on entities if the main GN or CT options are disabled.
 
 option.GENERATED_NORMAL_MULT=Generated Normal Strength
 option.GENERATED_NORMAL_MULT.comment=Adjusts the strength of auto-generated bumpy details on surfaces.
+
+option.GENERATED_NORMAL_RES=Generated Normal Resolution
+option.GENERATED_NORMAL_RES.comment=Adjusts the resolution/size of auto-generated bumpy details on surfaces. §e[*]§r Note that the GN resolution also depends on each texture's own resolution, which means that resource packs or mods can mess up the resolution of GN on different blocks.
 
 option.COATED_TEXTURE_MULT=Coated Texture Strength
 option.COATED_TEXTURE_MULT.comment=Adjusts the strength of auto-generated dusty details on textures.
 
 option.GLOWING_ORE_MASTER=§eEnable Glowing Ores
 option.GLOWING_ORE_MASTER.comment=Enables the functionality of glowing ores. §e[*]§r Choosing "Set By Style" will only enable glowing ores if the "Visual Style" is set to "Unbound". §e[*]§r The settings below won't work if this option isn't enabled.
-value.GLOWING_ORE_MASTER.0=§cOFF
+value.GLOWING_ORE_MASTER.0=OFF
 value.GLOWING_ORE_MASTER.1=Set By Style
 value.GLOWING_ORE_MASTER.2=§aON
 
@@ -808,12 +915,12 @@ option.GLOWING_ORE_MODDED=Glowing Modded Ores §e[*]§r
 option.GLOWING_ORE_MODDED.comment=§e[*]§r You can add modded ore IDs to "Complementary-->shaders-->block.properties" file in order to make them glow. You can open block.properties using any text editor like notepad, and then add modded ore block IDs next to "block.10024=".
 
 option.GLOWING_AMETHYST=Glowing Amethyst
-value.GLOWING_AMETHYST.0=§cOFF
+value.GLOWING_AMETHYST.0=OFF
 value.GLOWING_AMETHYST.1=Crystal
 value.GLOWING_AMETHYST.2=Crystal & Block
 
 option.GLOWING_LICHEN=Glowing Glow Lichen
-value.GLOWING_LICHEN.0=§cOFF
+value.GLOWING_LICHEN.0=OFF
 value.GLOWING_LICHEN.1=In Closed Areas
 value.GLOWING_LICHEN.2=Always
 
@@ -871,7 +978,7 @@ value.DIRECTIONAL_BLOCKLIGHT.11=Intense §c[-]
 
 option.HELD_LIGHTING_MODE=Dynamic Handheld Lighting
 option.HELD_LIGHTING_MODE.comment=Allows handheld light sources to cast light onto the scene.
-value.HELD_LIGHTING_MODE.0=§cOFF
+value.HELD_LIGHTING_MODE.0=OFF
 value.HELD_LIGHTING_MODE.1=Subtle
 value.HELD_LIGHTING_MODE.2=Normal
 
@@ -909,8 +1016,8 @@ option.WAVING_LEAVES.comment=Adds movement to leaves to simulate wind.
 option.WAVING_LAVA=Waving Lava Texture
 option.WAVING_LAVA.comment=Adds constant movement to lava. §e[*]§r Lava waving in particular is not affected by the "No Waving in Closed Areas" setting.
 
-option.WAVING_LILY_PAD=Waving Lily Pad
-option.WAVING_LILY_PAD.comment=Adds movement to lily pads and frogspawn to simulate impact from water waves.
+option.WAVING_LILY_PAD=Waving Lily Pad §c[-]§r
+option.WAVING_LILY_PAD.comment=Adds movement to lily pads and frogspawn to simulate impact from water waves. §c[-]§r This causes lily pads on waterlogged blocks to become invisible
 
 option.WAVING_WATER_VERTEX=Waving Water Height
 option.WAVING_WATER_VERTEX.comment=Adds movement to water position to simulate wind. §e[*]§r This option is not related to the "Water Wave Strength" setting.
@@ -938,14 +1045,17 @@ option.WORLD_OUTLINE_I.comment=Determines how intense the World Outline effect w
 option.WORLD_OUTLINE_ON_ENTITIES=World Outline on Entities
 option.WORLD_OUTLINE_ON_ENTITIES.comment=Determines if the World Outline effect will apply to entities or not. §c[-]§r This setting may not work perfectly with some custom PBR resource packs.
 
+option.WORLD_OUTLINE_SCALED=Distance Scaled World Outline
+option.WORLD_OUTLINE_SCALED.comment=Makes the size of world outline scale according to distance.
+
 option.DARK_OUTLINE=§eDark Outline§r
 option.DARK_OUTLINE.comment=Adds dark outlines around blocks. §c[-]§r This effect can impact performance.
 
 option.DARK_OUTLINE_THICKNESS=§eDark Outline Thickness§r
 option.DARK_OUTLINE_THICKNESS.comment=Determines the thickness of the Dark Outline effect. §c[-]§r Increasing this setting can impact performance.
 
-option.RAIN_PUDDLES=§eRain Puddles§r
-option.RAIN_PUDDLES.comment=Adds water puddles to the terrain during rain. §c[-]§r Rain puddles can severely impact performance.
+option.RAIN_PUDDLES=Rain Puddles
+option.RAIN_PUDDLES.comment=Adds water puddles to the terrain during rain. §e[*]§r "Block Reflection Quality" must be enabled for this to work. §e[*]§r Rain puddles have a problem where they can appear inside interiors if the roof is made of glass, but this issue is fixed by the "Advanced Color Tracing" system when that option is enabled.
 value.RAIN_PUDDLES.0=§aOFF
 value.RAIN_PUDDLES.1=§cPuddles in Rain
 value.RAIN_PUDDLES.2=§cFull Coverage in Rain
@@ -957,14 +1067,14 @@ option.UNDERWATER_DISTORTION.comment=Adds subtle refraction to the screen when t
 
 option.SELECT_OUTLINE=Selection Outline
 option.SELECT_OUTLINE.comment=Determines the color of the block selection outline.
-value.SELECT_OUTLINE.0=§cOFF
+value.SELECT_OUTLINE.0=OFF
 value.SELECT_OUTLINE.1=Default
 value.SELECT_OUTLINE.2=Rainbow
 value.SELECT_OUTLINE.3=Select Color
 value.SELECT_OUTLINE.4=Versatile
 
 option.SELECT_OUTLINE_AUTO_HIDE=Auto Hide Selection Outline
-option.SELECT_OUTLINE_AUTO_HIDE.comment=Hides the block selection outline if the player isn't holding anything in any of their hands, or only holding a light source in the off-hand.
+option.SELECT_OUTLINE_AUTO_HIDE.comment=Hides the block selection outline if the player isn't holding anything in their main hand.
 
 option.SELECT_OUTLINE_I=SO Brightness
 option.SELECT_OUTLINE_R=SO Red
@@ -1002,7 +1112,11 @@ option.COLORED_CANDLE_LIGHT=Colored Candle Lighting
 option.COLORED_CANDLE_LIGHT.comment=Makes lights cast by candles to be the same color as their bases. §e[*]§r The desaturated candle color variants will continue to use the usual fire color.
 
 option.COLORED_LIGHT_SATURATION=Colored Lighting Saturation
-option.COLORED_LIGHT_SATURATION.comment=Adjusts how saturated the colors produced from Advanced Color Tracing will be. §e[*]§r It's not recommended to change this value, as the visuals are designed to look the most balanced with the default saturation.
+option.COLORED_LIGHT_SATURATION.comment=Adjusts how saturated the colors produced from Advanced Color Tracing will be, including torches §e[*]§r It's not recommended to change this value, as the visuals are designed to look the most balanced with the default saturation.
+
+option.ACT_FIRE_COLOR_WARMNESS=Torch/Fire Color Warmness
+option.ACT_FIRE_COLOR_WARMNESS.comment=Adjusts the warmness of torch/fire/lantern light colors when Advanced Color Tracing is enabled. Note that the color is also affected by the "Colored Lighting Saturation" setting. §e[*]§r It's not recommended to change this value more than a tiny amount, as the visuals are designed to look the most balanced with the default level.
+value.ACT_FIRE_COLOR_WARMNESS.100=Normal
 
 option.COLORED_LIGHT_FOG=§eColored Light Fog§r
 option.COLORED_LIGHT_FOG.comment=Adds volumetric blocklight fog to the scene, most visible during the night or underground. §e[*]§r This feature only works if Advanced Color Tracing is on in Performance Settings and your system supports it. §c[-]§r This effect can severely impact performance.
@@ -1069,3 +1183,6 @@ option.XLIGHT_R=Blocklight Red Multiplier
 option.XLIGHT_G=Blocklight Green Multiplier
 option.XLIGHT_B=Blocklight Blue Multiplier
 option.XLIGHT_I=Blocklight Intensity
+
+option.XLIGHT_CURVE=Blocklight Contrast
+option.XLIGHT_CURVE.comment=Adjusts how quickly the intensity of blocklight fades away as it travels distance away from the light source.
