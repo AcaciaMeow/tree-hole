@@ -1,7 +1,7 @@
 
 
 蜜块粘动实体：
-	范围：aabb：蜜块位置(0,0,0;1,1.500.001,1)(完整方块+上方半砖高一点点)
+	范围：aabb：蜜块位置(0,0,0;1,1.5000010000000001,1)(完整方块&上方半砖高一点点的区域)
 	要求：
 		PushReaction.NORMAL and entity.onGround() and 
 		(entity.isSupportedBy(pos) or aabb.minX <= entity.getX() <=  aabb.maxX and aabb.minZ <= entity.getZ() <= aabb.maxZ) 
