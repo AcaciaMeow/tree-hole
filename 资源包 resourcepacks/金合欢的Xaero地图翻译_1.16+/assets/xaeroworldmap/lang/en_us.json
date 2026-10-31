@@ -321,5 +321,9 @@
 	"gui.xaero_box_map_distances" : "Display distances to the positions or elements on the map that you right click. For positions, the distance displayed is 2-dimensional. For elements, such as waypoints and tracked players, it is 3-dimensional where applicable.",
 	"gui.xaero_auto_convert_wm_distances_km" : "Convert Map Distance to KM at",
 	"gui.xaero_auto_convert_wm_distances_km_never" : "Never",
-	"gui.xaero_wm_distance_precision" : "Map Distance Precision"
+	"gui.xaero_wm_distance_precision" : "Map Distance Precision",
+	"gui.xaero_pac_add_claiming_anchor" : "Add Claiming Anchor",
+	"gui.xaero_pac_remove_claiming_anchor" : "Remove Claiming Anchor",
+	"gui.xaero_pac_remove_claiming_anchor_confirm_line1" : "Remove the following claiming anchor and all claims only in its range?",
+	"gui.xaero_pac_remove_claiming_anchor_confirm_line2" : "This action cannot be undone! Anchor chunk: %1$s"
 }

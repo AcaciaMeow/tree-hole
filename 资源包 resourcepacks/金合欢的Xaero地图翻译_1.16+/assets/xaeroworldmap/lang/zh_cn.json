@@ -321,5 +321,9 @@
 	"gui.xaero_box_map_distances" : "显示到你右键点击的地图位置或元素的距离。 \n 对于位置，显示的是二维距离。 \n 对于元素（如路径点和被追踪玩家），在适用情况下显示三维距离。",
 	"gui.xaero_auto_convert_wm_distances_km" : "地图距离转换为公里的阈值",
 	"gui.xaero_auto_convert_wm_distances_km_never" : "从不",
-	"gui.xaero_wm_distance_precision" : "地图距离精度"
+	"gui.xaero_wm_distance_precision" : "地图距离精度",
+	"gui.xaero_pac_add_claiming_anchor" : "添加声明锚点",
+	"gui.xaero_pac_remove_claiming_anchor" : "移除声明锚点",
+	"gui.xaero_pac_remove_claiming_anchor_confirm_line1" : "要移除以下声明锚点，以及仅位于其范围内的所有声明吗？",
+	"gui.xaero_pac_remove_claiming_anchor_confirm_line2" : "此操作无法撤销！锚点所在区块：%1$s"
 }
